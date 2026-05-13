@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: blitzy-compound-protocol
+  description: the Compound On-Chain Protocol
+  tags:
+  - typescript
+  annotations:
+    github.com/project-slug: Blitzy-Sandbox/blitzy-compound-protocol
+    backstage.io/source-location: url:https://github.com/Blitzy-Sandbox/blitzy-compound-protocol/tree/master/
+    backstage.io/techdocs-ref: dir:.
+  labels:
+    blitzy.com/language: typescript
+spec:
+  type: service
+  lifecycle: production
+  owner: blitzy-sandbox
+  system: blitzy-typescript
