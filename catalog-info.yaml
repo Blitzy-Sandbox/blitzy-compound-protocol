@@ -4,6 +4,7 @@ metadata:
   name: blitzy-compound-protocol
   description: the Compound On-Chain Protocol
   tags:
+  - solidity
   - typescript
   annotations:
     github.com/project-slug: Blitzy-Sandbox/blitzy-compound-protocol
